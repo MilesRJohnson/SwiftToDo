@@ -14,6 +14,8 @@
 		5AE89A9E1B4C499F00D6C36E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE89A9D1B4C499F00D6C36E /* Images.xcassets */; };
 		5AE89AA11B4C499F00D6C36E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE89A9F1B4C499F00D6C36E /* LaunchScreen.xib */; };
 		5AE89AAD1B4C499F00D6C36E /* SwiftToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE89AAC1B4C499F00D6C36E /* SwiftToDoTests.swift */; };
+		5AE89ABC1B4C4F4500D6C36E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE89ABB1B4C4F4500D6C36E /* DetailViewController.swift */; };
+		5AE89ABE1B4C66A900D6C36E /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE89ABD1B4C66A900D6C36E /* Items.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5AE89AA61B4C499F00D6C36E /* SwiftToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE89AAB1B4C499F00D6C36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE89AAC1B4C499F00D6C36E /* SwiftToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToDoTests.swift; sourceTree = "<group>"; };
+		5AE89ABB1B4C4F4500D6C36E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5AE89ABD1B4C66A900D6C36E /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +85,11 @@
 			children = (
 				5AE89A931B4C499F00D6C36E /* AppDelegate.swift */,
 				5AE89A981B4C499F00D6C36E /* ViewController.swift */,
+				5AE89ABB1B4C4F4500D6C36E /* DetailViewController.swift */,
 				5AE89A9A1B4C499F00D6C36E /* Main.storyboard */,
 				5AE89A9D1B4C499F00D6C36E /* Images.xcassets */,
 				5AE89A9F1B4C499F00D6C36E /* LaunchScreen.xib */,
-				5AE89A951B4C499F00D6C36E /* SwiftToDo.xcdatamodeld */,
+				5AE89AB81B4C4B2C00D6C36E /* Data */,
 				5AE89A911B4C499F00D6C36E /* Supporting Files */,
 			);
 			path = SwiftToDo;
@@ -113,6 +118,15 @@
 				5AE89AAB1B4C499F00D6C36E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE89AB81B4C4B2C00D6C36E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5AE89ABD1B4C66A900D6C36E /* Items.swift */,
+				5AE89A951B4C499F00D6C36E /* SwiftToDo.xcdatamodeld */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE89A991B4C499F00D6C36E /* ViewController.swift in Sources */,
+				5AE89ABE1B4C66A900D6C36E /* Items.swift in Sources */,
+				5AE89ABC1B4C4F4500D6C36E /* DetailViewController.swift in Sources */,
 				5AE89A941B4C499F00D6C36E /* AppDelegate.swift in Sources */,
 				5AE89A971B4C499F00D6C36E /* SwiftToDo.xcdatamodeld in Sources */,
 			);
